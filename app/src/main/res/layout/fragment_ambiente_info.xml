@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ambienteImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_ambiente" />
+
+    <TextView
+        android:id="@+id/ambienteName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ambiente Name"
+        android:textSize="18sp"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/ambienteDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ambiente Description"
+        android:padding="16dp" />
+</LinearLayout>

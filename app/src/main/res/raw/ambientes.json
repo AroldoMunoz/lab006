@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Salon 1",
+    "x": 50,
+    "y": 100,
+    "width": 200,
+    "height": 150,
+    "door_position": "left"
+  },
+  {
+    "id": 2,
+    "name": "Salon 2",
+    "x": 300,
+    "y": 100,
+    "width": 200,
+    "height": 150,
+    "door_position": "right"
+  },
+  {
+    "id": 3,
+    "name": "Patio",
+    "x": 50,
+    "y": 300,
+    "width": 200,
+    "height": 150,
+    "door_position": "top"
+  },
+  {
+    "id": 4,
+    "name": "Cocina",
+    "x": 300,
+    "y": 300,
+    "width": 200,
+    "height": 150,
+    "door_position": "bottom"
+  }
+]

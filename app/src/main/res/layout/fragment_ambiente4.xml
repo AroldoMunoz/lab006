@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF"> <!-- Fondo blanco para todo el layout -->
+
+    <!-- Título del ambiente centrado con márgenes laterales -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tienda"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"/>
+
+    <!-- Imagen del ambiente con márgenes laterales -->
+    <ImageView
+        android:id="@+id/imageViewRoom"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/recep"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"/>
+
+    <!-- Descripción del ambiente con márgenes laterales -->
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llévate un lindo y singular recuerdo de tu visita a Santa Catalina."
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"/>
+
+
+    <!-- Botón para regresar centrado con márgenes laterales -->
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:layout_gravity="center_horizontal"
+        android:padding="12dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"/>
+</LinearLayout>
